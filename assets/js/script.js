@@ -158,5 +158,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+var tl = gsap.timeline({ repeat: -1 });
+tl.to("h1", 30, { backgroundPosition: "-960px 0" });
 
 
