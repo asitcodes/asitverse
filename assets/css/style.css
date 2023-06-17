@@ -320,6 +320,10 @@ main {
 }
 
 .info-content .name {
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg);
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;	
   color: var(--white-2);
   font-size: var(--fs-3);
   font-weight: var(--fw-500);
